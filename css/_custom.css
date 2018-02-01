@@ -1,0 +1,81 @@
+.boxed {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pad-left {
+  padding-left: 1em;
+}
+
+.pad-right {
+  padding-right: 1em;
+}
+
+.pad-top {
+  padding-top: 1em;
+}
+
+.pad-bottom {
+  padding-bottom: 1em;
+}
+
+.margin-left {
+  margin-left: 1em;
+}
+
+.margin-right {
+  margin-right: 1em;
+}
+
+.margin-top {
+  margin-top: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+.border-bottom {
+  border-bottom: 4px solid #CCCAC4;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.tabs ul li {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0px;
+}
+
+.tabs ul li.active {
+  background-color: #CCCAC4;
+}
+
+.tabs ul li.active a {
+  color: #323232;
+}
+
+ul.inline-block li {
+  display: inline-block;
+}
+
+.divTable .header .column {
+  display: inline-block;
+}
+
+.divTable .header .col-1 {
+  display: inline-block;
+  width: 8.33333333%;
+}
+
+.divTable .header .col-2 {
+  display: inline-block;
+  width: 16.66666667%;
+}
+
+.divTable .header .col-3 {
+  display: inline-block;
+  width: 25%;
+}
