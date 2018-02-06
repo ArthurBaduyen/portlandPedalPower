@@ -1,0 +1,42 @@
+.chromedia {
+
+
+
+	// CUSTOM SELECT / DROPDOWN
+	.custom-dropdown{
+		button {
+			padding: 5px 15px; 
+			background: #fff;
+			width: 100%;
+			border-color: #ced4da;
+			color: #495057;
+			font-weight: normal;
+			font-size: 1rem;
+			font: system-ui;
+			text-transform: none;
+		}
+
+		.dropdown-menu, form-check {
+			width: 100% !important;
+		}
+	}
+
+
+	.custom-dropdown2{
+		button {
+			padding: 5px 15px; 
+			background:  transparent;
+
+			border: none;
+			color: #7ea034;
+			font-weight: normal;
+			font-size: 14px;
+			font-family: Verdana,Geneva,sans-serif;
+		}
+
+		.dropdown-menu, form-check {
+			width: 200% !important;
+		}
+	}
+
+}

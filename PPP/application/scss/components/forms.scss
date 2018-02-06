@@ -1,0 +1,17 @@
+.chromedia {
+	table {
+		tbody , input, textarea, button, label{
+			font-size: 12px !important;
+			tr {
+				&.table-edit {
+					background: #fff;
+				}
+			}
+
+			li {
+				list-style-type: none;
+			}
+			
+		}
+	}
+}
