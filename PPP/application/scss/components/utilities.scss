@@ -10,14 +10,12 @@
 	.fluid {
 		width: 100%;
 	}
+
+	.btn {
+		font-weight: normal;
+		font-family:  verdana;
+		&:btn-secondary {
+			
+		}
+	}
 }
-
-
-
-
-
-
-
-
-
-
