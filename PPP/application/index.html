@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/ppp1.css">
 	<link rel="stylesheet" type="text/css" href="css/ppp2.css">
+
+	<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+  	<script>tinymce.init({ selector:'textarea' });</script>
 </head>
 <body class="pb-5">
 	<div id="cms-content">
@@ -95,7 +98,7 @@
 								</div>
 
 								<div class="row justify-content-start">
-									<div class="col-md-5 col">
+									<div class="col-md-6 col">
 										<div class="form-group">
 											<label class="h5 bold" for="name">Name</label>
 											<input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" Value="A taste of greek">
@@ -135,17 +138,15 @@
 
 										<div class="form-group">
 											<label class="h5 bold" for="textarea">Description</label>
-											<textarea class="form-control" id="textarea" rows="5"></textarea>
+											<textarea class="form-control mce-window" id="textarea" rows="5"></textarea>
 										</div>
 									</div>
 
 									<!-- PROMO CODES -->
-									<div class="col-md-7 col">
+									<div class="col-md-6 col">
 										<div class="pt-3 pb-2">
 											<label class="h5 bold d-inline" for="textarea">Promos</label>
-											<a href="#" class="ml-3 text-upper no-decor ">
-												<i class="fa fa-plus"></i> New
-											</a>
+											<a href="#" class="ml-3 text-upper no-decor fa fa-plus"></a>
 										</div>
 
 										<ul class="list-group">
@@ -265,8 +266,7 @@
 									<div class="col-md-12 col mt-5 mb-2
 									">
 										<label class="h5 bold d-inline" for="textarea">Location</label>
-										<a href="#" class="ml-3 d-inline text-upper no-decor ">
-											<i class="fa fa-plus"></i> New
+										<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-plus">
 										</a>
 
 										<!-- MANAGE COLUMNS FUNCTION STARTS HERE -->
@@ -642,9 +642,7 @@
 									<!-- SERVICE DETAILS STARTS HERE-->
 									<div class="col-md-12 col mt-5 mb-2">
 										<label class="h5 bold d-inline" for="textarea">Service Details</label>
-										<a href="#" class="ml-3 d-inline text-upper no-decor ">
-											<i class="fa fa-plus"></i> New
-										</a>
+										<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-plus"></a>
 									</div>
 									<div class="col-md-12 col">	
 										<table class="table table-hover table-active">
@@ -907,9 +905,7 @@
 									<!-- SERVICE CLOSURE STARTS HERE-->
 									<div class="col-md-12 col mt-5 mb-2">
 										<label class="h5 bold d-inline" for="textarea">Service Closure</label>
-										<a href="#" class="ml-3 d-inline text-upper no-decor ">
-											<i class="fa fa-plus"></i> New
-										</a>
+										<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-plus"></a>
 									</div>
 									<div class="col-md-12 col">	
 										<table class="table table-hover table-active">
@@ -1052,7 +1048,7 @@
 											</tbody>
 										</table>
 									</div>
-									<div class="text-center mt-5">
+									<div class="text-center mt-5 mx-auto">
 										<button type="button" class="btn btn-secondary d-inline p-2 pl-3 pr-3">Cancel</button>
 										<button type="button" class="btn btn-success d-inline p-2 pl-3 pr-3">Update Vendor</button>
 									</div>
@@ -1082,7 +1078,14 @@
 
 
 
-	<!-- TABS -->
+	<!-- MCE -->
+	<script type="text/javascript">
+		$(document).on('focusin', function(e) {
+		  if ($(e.target).closest(".mce-window").length) {
+		    e.stopImmediatePropagation();
+		  }
+		});
+	</script>
 
 	
 
