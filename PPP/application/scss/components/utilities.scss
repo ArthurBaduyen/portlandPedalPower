@@ -53,4 +53,12 @@
 	.show {
 		visibility: show;
 	}
+
+	.valid {
+		color: $success;
+	}
+
+	.invalid {
+		color: $danger;
+	}
 }
