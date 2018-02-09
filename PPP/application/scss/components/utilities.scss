@@ -13,15 +13,29 @@
 
 	.btn {
 		font-weight: normal;
-		font-family:  verdana;
+		font-family: verdana;
 		&:btn-secondary {
 			
 		}
 	}
 
-	a{
+	a {
 		&.fa-plus:after {
 			content: " New";
+			font-family: verdana;
+			font-weight: 600;
+			font-size: 15px;
+		}
+
+		&.fa-upload:after {
+			content: " Import";
+			font-family: verdana;
+			font-weight: 600;
+			font-size: 15px;
+		}
+
+		&.fa-download:after {
+			content: " Export";
 			font-family: verdana;
 			font-weight: 600;
 			font-size: 15px;
@@ -30,5 +44,13 @@
 
 	.disable {
 		pointer-events:none;
+	}
+
+	.hide {
+		visibility: hidden;
+	}
+
+	.show {
+		visibility: show;
 	}
 }

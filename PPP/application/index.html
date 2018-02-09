@@ -7,8 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="css/ppp1.css">
 	<link rel="stylesheet" type="text/css" href="css/ppp2.css">
 
+	<!-- 
 	<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
-  	<script>tinymce.init({ selector:'textarea' });</script>
+ 	<script>tinymce.init({ selector:'textarea' });</script>
+ 	 -->
+
 </head>
 <body class="pb-5">
 	<div id="cms-content">
@@ -81,7 +84,7 @@
 				<div class="text-left tab-content pt-5" id="myTabContent">
 
 					<!-- START VENDOR PROFILE -->
-					<div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 						<div class="container-fluid">
 							<form>
 								<!-- FORMS -->
@@ -403,7 +406,7 @@
 										<!-- MANAGE COLUMNS FUNCTION ENDS HERE -->
 									</div>
 									<div class="col-md-12 col">	
-										<table class="table table-hover table-active">
+										<table class="table table-hover table-active" style="width: 150em;">
 											<thead class="thead-default">
 												<tr>
 													<th class="align-middle">Active</th>
@@ -1206,8 +1209,511 @@
 					<!-- END VENDOR PROFILE -->
 
 					<!-- START VENDOR MENU -->
-					<div class="tab-pane fade" id="menu" role="tabpanel" aria-labelledby="menu-tab">
-						This is menu
+					<div class="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab">
+						<div class="container-fluid">
+							<form>
+								<div class="row mb-3">
+									<div class="col-md-3 col">
+										<div class="ppp-search">
+											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+										</div>
+									</div>
+									<div class="col-md-9 col pt-2">
+										<!-- <label class="h5 bold d-inline" for="textarea">Location</label> -->
+										<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-plus"></a>
+										<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-download pull-right"></a>
+										<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-upload pull-right"></a>
+									</div>
+								</div>
+
+								<div class="row justify-content-start">
+									<div class="col-md-12 col">
+										<table class="table table-hover table-active" style="width: 180em;">
+											<thead class="thead-default">
+												<tr>
+													<th class="align-middle">Active</th>
+													<th class="align-middle">Public</th>
+													<th class="align-middle">Service Hours</th>
+													<th class="align-middle">
+														Family Name  <a href=""><i class="fa fa-sort"></i></a>
+													</th>
+													<th class="align-middle">Include</th>
+													<th class="align-middle">Family Desc</th>
+													<th class="align-middle">
+														Menu Category  <a href=""><i class="fa fa-sort"></i></a>
+													</th>
+													<th class="align-middle">
+														Item Name <a href=""><i class="fa fa-sort"></i></a>
+													</th>
+													<th class="align-middle">Include</th>
+													<th class="align-middle">Item Desc</th>
+													<th class="align-middle">Dietary Code</th>
+													<th class="align-middle">Lead Time</th>
+													<th class="align-middle">Whole Sale</th>
+													<th class="align-middle">Retail Price</th>
+													<th class="align-middle">List Price</th>
+													<th class="align-middle"></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr class="table-edit">
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Service Hours
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Breakfast</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Lunch</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Dinner</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Family Name" value='Sinigang na Medyas'>
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^</textarea>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category" value="Sud an">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category"  value="Medyas tapa">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Item Name" value="Ingrown">
+													</td>
+													<td>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter Item Name">You can't imagine how kalami this sud an</textarea>
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dietary Code
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">GF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">VG</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">V</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">DF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Contain Nuts</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Minutes"  value="30 min">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Whole Sale"value="20$">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Retail Price" value="22$">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter List Price"  value="25$">
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Breakfast, Lunch, Dinner
+													</td>
+													<td>
+														Sinigang na Medyas
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^
+													</td>
+													<td>
+														Sud an
+													</td>
+													<td>
+														Medyas tapa
+													</td>
+													<td>
+														Ingrown
+													</td>
+													<td>
+														You can't imagine how kalami this sud an
+													</td>
+													<td>
+														AA
+													</td>
+													<td>
+														30 min
+													</td>
+													<td>
+														20$
+													</td>
+													<td>
+														22$
+													</td>
+													<td>
+														25$
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Breakfast, Lunch, Dinner
+													</td>
+													<td>
+														Sinigang na Medyas
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^
+													</td>
+													<td>
+														Sud an
+													</td>
+													<td>
+														Medyas tapa
+													</td>
+													<td>
+														Ingrown
+													</td>
+													<td>
+														You can't imagine how kalami this sud an
+													</td>
+													<td>
+														AA
+													</td>
+													<td>
+														30 min
+													</td>
+													<td>
+														20$
+													</td>
+													<td>
+														22$
+													</td>
+													<td>
+														25$
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Breakfast, Lunch, Dinner
+													</td>
+													<td>
+														Sinigang na Medyas
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^
+													</td>
+													<td>
+														Sud an
+													</td>
+													<td>
+														Medyas tapa
+													</td>
+													<td>
+														Ingrown
+													</td>
+													<td>
+														You can't imagine how kalami this sud an
+													</td>
+													<td>
+														AA
+													</td>
+													<td>
+														30 min
+													</td>
+													<td>
+														20$
+													</td>
+													<td>
+														22$
+													</td>
+													<td>
+														25$
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Breakfast, Lunch, Dinner
+													</td>
+													<td>
+														Sinigang na Medyas
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^
+													</td>
+													<td>
+														Sud an
+													</td>
+													<td>
+														Medyas tapa
+													</td>
+													<td>
+														Ingrown
+													</td>
+													<td>
+														You can't imagine how kalami this sud an
+													</td>
+													<td>
+														AA
+													</td>
+													<td>
+														30 min
+													</td>
+													<td>
+														20$
+													</td>
+													<td>
+														22$
+													</td>
+													<td>
+														25$
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Breakfast, Lunch, Dinner
+													</td>
+													<td>
+														Sinigang na Medyas
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^
+													</td>
+													<td>
+														Sud an
+													</td>
+													<td>
+														Medyas tapa
+													</td>
+													<td>
+														Ingrown
+													</td>
+													<td>
+														You can't imagine how kalami this sud an
+													</td>
+													<td>
+														AA
+													</td>
+													<td>
+														30 min
+													</td>
+													<td>
+														20$
+													</td>
+													<td>
+														22$
+													</td>
+													<td>
+														25$
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Breakfast, Lunch, Dinner
+													</td>
+													<td>
+														Sinigang na Medyas
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^
+													</td>
+													<td>
+														Sud an
+													</td>
+													<td>
+														Medyas tapa
+													</td>
+													<td>
+														Ingrown
+													</td>
+													<td>
+														You can't imagine how kalami this sud an
+													</td>
+													<td>
+														AA
+													</td>
+													<td>
+														30 min
+													</td>
+													<td>
+														20$
+													</td>
+													<td>
+														22$
+													</td>
+													<td>
+														25$
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Breakfast, Lunch, Dinner
+													</td>
+													<td>
+														Sinigang na Medyas
+													</td>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^
+													</td>
+													<td>
+														Sud an
+													</td>
+													<td>
+														Medyas tapa
+													</td>
+													<td>
+														Ingrown
+													</td>
+													<td>
+														You can't imagine how kalami this sud an
+													</td>
+													<td>
+														AA
+													</td>
+													<td>
+														30 min
+													</td>
+													<td>
+														20$
+													</td>
+													<td>
+														22$
+													</td>
+													<td>
+														25$
+													</td>
+													<td class="align-middle">
+														<a >
+										 					<i class="fa fa-trash text-danger visible pull-right mt-2" title="Delete item"> </i>
+										 				</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 					<!-- END VENDOR MENU -->
 				</div>
