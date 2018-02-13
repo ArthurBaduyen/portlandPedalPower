@@ -26,6 +26,19 @@
 					border-right: 0px;
 					border-bottom: 1px solid transparent;
 				}
+
+				.btn-delete {
+					display: none;
+					padding: .5rem .75rem;
+					background-color: transparent;
+					border: 0px;
+					color: red;
+					border-radius: 2px;
+					&:hover {
+						background-color: #e1e1e1;
+					}
+					
+				}
 				&.table-edit, &.table-add {
 					background: #fff;
 
@@ -45,6 +58,10 @@
 						background-color: transparent;
 
 						border: 1px solid #e1e1e1;
+					}
+
+					.btn-delete {
+						display: inline-block;
 					}
 
 					// -webkit-box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.33);
