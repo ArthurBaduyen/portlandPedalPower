@@ -1,6 +1,15 @@
 .chromedia {
-	.custom-select {
+	.custom-select, .custom-dropdown {
 		background: none;
 		background: #fff;
-	}	
+		button {
+			background: transparent;
+		}
+	}
+	textarea {
+		min-height: 3rem;
+		// height: 3rem;		
+	}
+
+	input, textarea { outline: none; }
 }
