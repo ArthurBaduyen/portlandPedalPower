@@ -11,5 +11,10 @@
 		// height: 3rem;		
 	}
 
-	input, textarea { outline: none; }
+	input, textarea { 
+		&:focus {
+			box-shadow: none;
+		}
+		outline: none !important; 
+	}
 }
