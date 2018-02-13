@@ -413,9 +413,9 @@
 											<table class="table table-hover table-active" style="width: 150em;">
 												<thead class="thead-default">
 													<tr>
-														<th class="align-middle">Active</th>
-														<th class="align-middle"  width='150px'>Name</th>
-														<th class="align-middle">
+														<th class="align-middle" width='50px'>Active</th>
+														<th class="align-middle"  width='125px'>Name</th>
+														<th class="align-middle" width="350px">
 															<div class="row">
 																<div class="col-md-8 col">
 																	Contact
@@ -428,29 +428,33 @@
 																</div>
 															</div>
 														</th>
-														<th class="align-middle">Address</th>
-														<th class="align-middle" width='200px'>Coordinates</th>
-														<th class="align-middle" width='300px'>Requirements</th>
-														<th class="align-middle" width='300px'>Capacity</th>
-														<th class="align-middle">Communication </br>Type</th>
-														<th class="align-middle"></th>
+														<th class="align-middle" width='170px'>Address</th>
+														<th class="align-middle" width='120px'>Coordinates</th>
+														<th class="align-middle" width='250px'>Requirements</th>
+														<th class="align-middle" width='250px'>Capacity</th>
+														<th class="align-middle" width='200px'>Communication </br>Type</th>
 													</tr>
 												</thead>
 												<tbody>
-													<tr class="">
-														<th scope="row"><input type="checkbox" id="Activecheck"></th>
+													<tr>
+														<!-- Begin Active Checkbox -->
+														<td scope="row"><input type="checkbox" id="Activecheck"></th>
+														<!-- End Active Checkbox -->
+														<!-- Begin Vendor Name -->
 														<td>
 															<input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="AToG1">
 														</td>
-														<td>															
+														<!-- End Vendor Name -->
+														<!-- Begin Contact -->
+														<td>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -469,12 +473,12 @@
 															</ul>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -493,12 +497,12 @@
 															</ul>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -515,17 +519,21 @@
 																	</div>
 																</div>																
 															</ul>
-
-															<ul class="text-center">
+															<ul class="text-center new-contact">
 																<a href="#" class="d-inline text-upper no-decor ">
 																	<i class="fa fa-plus"></i> New Contact
 																</a>
 															</ul>
 														</td>
+														<!-- End Contact -->
+
+														<!-- Begin Address -->
 														<td>
 															<input type="address" class="form-control d-inline " id="name" aria-describedby="emailHelp" placeholder="Enter address" value="5631 Adonis Ferry">
-
 														</td>
+														<!-- End Address -->
+
+														<!-- Begin Coordinates -->
 														<td>
 															<ul>
 																<label class="m-0 mb-1 d-inline">Long:</label>
@@ -540,12 +548,21 @@
 																</li>
 															</ul>
 														</td>
+														<!-- End Coordinates -->
+
+														<!-- Begin Requirement Note -->
 														<td>
 															<textarea class="form-control" id="textarea" rows="8" placeholder="Enter requirements" >At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</textarea>
 														</td>
+														<!-- End Requirement Note -->
+
+														<!-- Begin Capacity Note -->
 														<td>
 															<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</textarea>
 														</td>
+														<!-- End Capacity Note -->
+
+														<!-- Begin Communication Type -->
 														<td>
 															<div class="input-group mb-3">
 																<select class="custom-select" id="inputGroupSelect01">
@@ -558,22 +575,28 @@
 
 																</select>
 															</div>
-														</td>														
+														</td>
+														<!-- End	 Communication Type -->
 													</tr>
-													<tr class="">
-														<th scope="row"><input type="checkbox" id="Activecheck"></th>
+													<tr>
+														<!-- Begin Active Checkbox -->
+														<td scope="row"><input type="checkbox" id="Activecheck"></th>
+														<!-- End Active Checkbox -->
+														<!-- Begin Vendor Name -->
 														<td>
 															<input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="AToG1">
 														</td>
-														<td>															
+														<!-- End Vendor Name -->
+														<!-- Begin Contact -->
+														<td>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -592,12 +615,12 @@
 															</ul>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -616,12 +639,12 @@
 															</ul>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -638,17 +661,21 @@
 																	</div>
 																</div>																
 															</ul>
-
-															<ul class="text-center">
+															<ul class="text-center new-contact">
 																<a href="#" class="d-inline text-upper no-decor ">
 																	<i class="fa fa-plus"></i> New Contact
 																</a>
 															</ul>
 														</td>
+														<!-- End Contact -->
+
+														<!-- Begin Address -->
 														<td>
 															<input type="address" class="form-control d-inline " id="name" aria-describedby="emailHelp" placeholder="Enter address" value="5631 Adonis Ferry">
-
 														</td>
+														<!-- End Address -->
+
+														<!-- Begin Coordinates -->
 														<td>
 															<ul>
 																<label class="m-0 mb-1 d-inline">Long:</label>
@@ -663,12 +690,21 @@
 																</li>
 															</ul>
 														</td>
+														<!-- End Coordinates -->
+
+														<!-- Begin Requirement Note -->
 														<td>
 															<textarea class="form-control" id="textarea" rows="8" placeholder="Enter requirements" >At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</textarea>
 														</td>
+														<!-- End Requirement Note -->
+
+														<!-- Begin Capacity Note -->
 														<td>
 															<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</textarea>
 														</td>
+														<!-- End Capacity Note -->
+
+														<!-- Begin Communication Type -->
 														<td>
 															<div class="input-group mb-3">
 																<select class="custom-select" id="inputGroupSelect01">
@@ -681,22 +717,28 @@
 
 																</select>
 															</div>
-														</td>														
+														</td>
+														<!-- End	 Communication Type -->
 													</tr>
-													<tr class="table-edit">
-														<th scope="row"><input type="checkbox" id="Activecheck"></th>
+													<tr>
+														<!-- Begin Active Checkbox -->
+														<td scope="row"><input type="checkbox" id="Activecheck"></th>
+														<!-- End Active Checkbox -->
+														<!-- Begin Vendor Name -->
 														<td>
 															<input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="AToG1">
 														</td>
-														<td>															
+														<!-- End Vendor Name -->
+														<!-- Begin Contact -->
+														<td>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -715,12 +757,12 @@
 															</ul>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -739,12 +781,12 @@
 															</ul>
 															<ul>
 																<div class="row">
-																	<div class="col-md-1">
+																	<div class="col-md-1 pl-0">
 																		<button class="btn-delete">
 																			<i class="fa fa-trash"></i>
 																		</button>
 																	</div>
-																	<div class="col-md-11">
+																	<div class="col-md-11 pl-0">
 																		<div class="row">
 																			<div class="col-md-8 col">
 																				<input type="text" class="form-control d-inline bold" id="name" aria-describedby="emailHelp" placeholder="Enter name" value="Jay Barnes">
@@ -761,17 +803,21 @@
 																	</div>
 																</div>																
 															</ul>
-
-															<ul class="text-center">
+															<ul class="text-center new-contact">
 																<a href="#" class="d-inline text-upper no-decor ">
 																	<i class="fa fa-plus"></i> New Contact
 																</a>
 															</ul>
 														</td>
+														<!-- End Contact -->
+
+														<!-- Begin Address -->
 														<td>
 															<input type="address" class="form-control d-inline " id="name" aria-describedby="emailHelp" placeholder="Enter address" value="5631 Adonis Ferry">
-
 														</td>
+														<!-- End Address -->
+
+														<!-- Begin Coordinates -->
 														<td>
 															<ul>
 																<label class="m-0 mb-1 d-inline">Long:</label>
@@ -786,12 +832,21 @@
 																</li>
 															</ul>
 														</td>
+														<!-- End Coordinates -->
+
+														<!-- Begin Requirement Note -->
 														<td>
 															<textarea class="form-control" id="textarea" rows="8" placeholder="Enter requirements" >At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</textarea>
 														</td>
+														<!-- End Requirement Note -->
+
+														<!-- Begin Capacity Note -->
 														<td>
 															<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</textarea>
 														</td>
+														<!-- End Capacity Note -->
+
+														<!-- Begin Communication Type -->
 														<td>
 															<div class="input-group mb-3">
 																<select class="custom-select" id="inputGroupSelect01">
@@ -804,7 +859,8 @@
 
 																</select>
 															</div>
-														</td>														
+														</td>
+														<!-- End	 Communication Type -->
 													</tr>
 												</tbody>
 											</table>
