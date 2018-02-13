@@ -1,8 +1,22 @@
 .chromedia {
 	table {
+
 		tbody , input, textarea, button, label{
 			font-size: 12px !important;
 			tr {
+				input {
+					border-top: 0px;
+					border-left: 0px;
+					border-right: 0px;
+					border-bottom: 0px;
+					border-radius: 0px;
+
+					padding-bottom: 1px;
+					padding-top: 1rem;
+					padding-left: .15rem;
+					// border-bottom: 1px solid #e1e1e1;
+					background-color: transparent;
+				}
 				&.table-edit, &.table-add {
 					background: #fff;
 
