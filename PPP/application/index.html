@@ -475,7 +475,7 @@
 											<!-- MANAGE COLUMNS FUNCTION ENDS HERE -->
 										</div>
 										<div class="col-md-12 col table-responsive">
-											<table class="table table-hover table-active" style="width: 150em;">
+											<table class="table table-hover table-active" style="width: 120em;">
 												<thead class="thead-default">
 													<tr>
 														<th class="align-middle" width='50px'>Active</th>
@@ -497,7 +497,7 @@
 														<th class="align-middle" width='70px'>Coordinates</th>
 														<th class="align-middle" width='200px'>Requirements</th>
 														<th class="align-middle" width='200px'>Capacity</th>
-														<th class="align-middle" width='75px'>Communication </br>Type</th>
+														<th class="align-middle" width='60px'>Communication Type</th>
 													</tr>
 												</thead>
 												<tbody>
@@ -939,35 +939,35 @@
 											<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-plus"></a>
 										</div>
 										<div class="col-md-12 col table-responsive">	
-											<table class="table table-hover table-active" style="width: 150em;">
+											<table class="table table-hover table-active" style="width: 120em;">
 												<thead class="thead-default">
 													<tr>
-														<th class="align-middle">Active</th>
-														<th class="align-middle">Public</th>
-														<th class="align-middle">Name</th>
-														<th class="align-middle">Mon</th>
-														<th class="align-middle">Tues</th>
-														<th class="align-middle">Wed</th>
-														<th class="align-middle">Thur</th>
-														<th class="align-middle">Fri</th>
-														<th class="align-middle">Sat</th>
-														<th class="align-middle">Sun</th>
-														<th class="align-middle">From</th>
-														<th class="align-middle">To</th>
-														<th class="align-middle">Lead Time</th>
-														<th class="align-middle">Min.Order Value</th>
+														<th class="align-middle" width="50px">Active</th>
+														<th class="align-middle" width="50px">Public</th>
+														<th class="align-middle" width="150px">Name</th>
+														<th class="align-middle" width="30px">Mon</th>
+														<th class="align-middle" width="30px">Tues</th>
+														<th class="align-middle" width="30px">Wed</th>
+														<th class="align-middle" width="30px">Thur</th>
+														<th class="align-middle" width="30px">Fri</th>
+														<th class="align-middle" width="30px">Sat</th>
+														<th class="align-middle" width="70px">Sun</th>
+														<th class="align-middle" width="140px">From</th>
+														<th class="align-middle" width="140px">To</th>
+														<th class="align-middle" width="130px">Lead Time</th>
+														<th class="align-middle" width="130px">Min.Order Value</th>
 														<th class="align-middle">Location</th> 														
 													</tr>
 												</thead>
 												<tbody>
-													<tr class="table-edit">
+													<tr>
 														<th scope="row"><input type="checkbox" id="Activecheck"></th>
 														<td>
 															<input type="checkbox" id="Activecheck">
 														</td>
 
 														<td>
-															<div class="input-group mb-3">
+															<div class="input-group">
 																<select class="custom-select" id="inputGroupSelect01">
 																	<option value="1">Breakfast</option>
 																	<option value="2">Lunch</option>
@@ -1006,7 +1006,7 @@
 														</td>
 
 														<td>
-															<div class="input-group mb-3">
+															<div class="input-group">
 																<select class="custom-select" id="inputGroupSelect01">
 																	<option value="1">12:00 AM</option>
 																	<option value="2">12:15 AM</option>
@@ -1019,7 +1019,7 @@
 															</div>
 														</td>
 														<td>
-															<div class="input-group mb-3">
+															<div class="input-group">
 																<select class="custom-select" id="inputGroupSelect01">
 																	<option value="1">12:00 AM</option>
 																	<option value="2">12:15 AM</option>
@@ -1041,7 +1041,7 @@
 														</td>
 
 														<td>
-															<div class="form-group">
+															<div class="form-group mb-0">
 																<div class="dropdown custom-dropdown">
 																	<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 																		Select Location
@@ -1073,8 +1073,7 @@
 																</div>
 															</div>
 														</td>
-														
-													</tr>	
+													</tr>
 													<tr>
 														<th scope="row"><input type="checkbox" id="Activecheck"></th>
 														<td>
@@ -1082,7 +1081,14 @@
 														</td>
 
 														<td>
-															Lunch
+															<div class="input-group">
+																<select class="custom-select" id="inputGroupSelect01">
+																	<option value="1">Breakfast</option>
+																	<option value="2">Lunch</option>
+																	<option value="3">Dinner</option>
+
+																</select>
+															</div>
 														</td>
 
 														<td>
@@ -1114,26 +1120,74 @@
 														</td>
 
 														<td>
-															8:30 AM
+															<div class="input-group">
+																<select class="custom-select" id="inputGroupSelect01">
+																	<option value="1">12:00 AM</option>
+																	<option value="2">12:15 AM</option>
+																	<option value="3">12:30 AM</option>
+																	<option value="4">...</option>
+																	<option value="5">...</option>
+																	<option value="6">15 mins interval ni pat</option>
+																	<option value="7">11:45 PM</option>
+																</select>
+															</div>
+														</td>
+														<td>
+															<div class="input-group">
+																<select class="custom-select" id="inputGroupSelect01">
+																	<option value="1">12:00 AM</option>
+																	<option value="2">12:15 AM</option>
+																	<option value="3">12:30 AM</option>
+																	<option value="4">...</option>
+																	<option value="5">...</option>
+																	<option value="6">15 mins interval ni pat</option>
+																	<option value="7">11:45 PM</option>
+																</select>
+															</div>
 														</td>
 
 														<td>
-															10:25 AM
+															<input type="text" class="form-control d-inline " id="name" aria-describedby="emailHelp" placeholder="Enter Lead time" value="60 mins">
 														</td>
 
 														<td>
-															60 mins
+															<input type="text" class="form-control d-inline " id="name" aria-describedby="emailHelp" placeholder="Enter Minimum order value" value="$100">
 														</td>
 
 														<td>
-															100$
+															<div class="form-group mb-0">
+																<div class="dropdown custom-dropdown">
+																	<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																		Select Location
+																	</button>
+																	 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																	 	<ul class="list-group">
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">ALL</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG1</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG2</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG3</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG4</label>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
 														</td>
-
-														<td>
-															ALL
-														</td>
-														
-													</tr>		
+													</tr>
 													<tr>
 														<th scope="row"><input type="checkbox" id="Activecheck"></th>
 														<td>
@@ -1141,7 +1195,14 @@
 														</td>
 
 														<td>
-															Dinner
+															<div class="input-group">
+																<select class="custom-select" id="inputGroupSelect01">
+																	<option value="1">Breakfast</option>
+																	<option value="2">Lunch</option>
+																	<option value="3">Dinner</option>
+
+																</select>
+															</div>
 														</td>
 
 														<td>
@@ -1173,25 +1234,75 @@
 														</td>
 
 														<td>
-															8:30 AM
+															<div class="input-group">
+																<select class="custom-select" id="inputGroupSelect01">
+																	<option value="1">12:00 AM</option>
+																	<option value="2">12:15 AM</option>
+																	<option value="3">12:30 AM</option>
+																	<option value="4">...</option>
+																	<option value="5">...</option>
+																	<option value="6">15 mins interval ni pat</option>
+																	<option value="7">11:45 PM</option>
+																</select>
+															</div>
+														</td>
+														<td>
+															<div class="input-group">
+																<select class="custom-select" id="inputGroupSelect01">
+																	<option value="1">12:00 AM</option>
+																	<option value="2">12:15 AM</option>
+																	<option value="3">12:30 AM</option>
+																	<option value="4">...</option>
+																	<option value="5">...</option>
+																	<option value="6">15 mins interval ni pat</option>
+																	<option value="7">11:45 PM</option>
+																</select>
+															</div>
 														</td>
 
 														<td>
-															10:25 AM
+															<input type="text" class="form-control d-inline " id="name" aria-describedby="emailHelp" placeholder="Enter Lead time" value="60 mins">
 														</td>
 
 														<td>
-															60 mins
+															<input type="text" class="form-control d-inline " id="name" aria-describedby="emailHelp" placeholder="Enter Minimum order value" value="$100">
 														</td>
 
 														<td>
-															100$
+															<div class="form-group mb-0">
+																<div class="dropdown custom-dropdown">
+																	<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																		Select Location
+																	</button>
+																	 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																	 	<ul class="list-group">
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">ALL</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG1</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG2</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG3</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG4</label>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
 														</td>
-
-														<td>
-															AToG2, AToG4
-														</td>														
-													</tr>		
+													</tr>
+															
 												</tbody>
 											</table>
 										</div>	
@@ -1204,21 +1315,21 @@
 											<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-plus"></a>
 										</div>
 										<div class="col-md-12 col table-responsive">
-											<table class="table table-hover table-active" style="width: 150em;">
+											<table class="table table-hover table-active" style="width: 120em;">
 												<thead class="thead-default">
 													<tr>
-														<th class="align-middle">Active</th>
-														<th class="align-middle">From</th>
-														<th class="align-middle">To</th>
-														<th class="align-middle">Description</th>
+														<th class="align-middle" width="50px">Active</th>
+														<th class="align-middle" width="300px">From</th>
+														<th class="align-middle" width="300px">To</th>
+														<th class="align-middle" width="500px">Description</th>
 														<th class="align-middle">Location</th>														
 													</tr>
 												</thead>
 												<tbody>
-													<tr class="table-edit">
+													<tr>
 														<th scope="row"><input type="checkbox" id="Activecheck"></th>
 														<td>
-															<div class="input-group mb-3">
+															<div class="input-group">
 																<input type="text" class="form-control d-inline rounded" id="name" aria-describedby="emailHelp" placeholder="Enter Lead time" value="01/20/18">
 
 																<select class="custom-select ml-3" id="inputGroupSelect01">
@@ -1234,7 +1345,7 @@
 														</td>
 
 														<td>
-															<div class="input-group mb-3">
+															<div class="input-group">
 																<input type="text" class="form-control d-inline rounded" id="name" aria-describedby="emailHelp" placeholder="Enter Lead time" value="01/20/18">
 
 																<select class="custom-select ml-3" id="inputGroupSelect01">
@@ -1254,7 +1365,7 @@
 														</td>
 
 														<td>
-															<div class="form-group">
+															<div class="form-group mb-0">
 																<div class="dropdown custom-dropdown">
 																	<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 																		Select Location
@@ -1290,55 +1401,73 @@
 													<tr>
 														<th scope="row"><input type="checkbox" id="Activecheck"></th>
 														<td>
-															01/20/18 12:00AM
+															<div class="input-group">
+																<input type="text" class="form-control d-inline rounded" id="name" aria-describedby="emailHelp" placeholder="Enter Lead time" value="01/20/18">
+
+																<select class="custom-select ml-3" id="inputGroupSelect01">
+																	<option value="1">12:00 AM</option>
+																	<option value="2">12:15 AM</option>
+																	<option value="3">12:30 AM</option>
+																	<option value="4">...</option>
+																	<option value="5">...</option>
+																	<option value="6">15 mins interval ni pat</option>
+																	<option value="7">11:45 PM</option>
+																</select>
+															</div>
 														</td>
 
 														<td>
-															01/20/18 12:00AM
+															<div class="input-group">
+																<input type="text" class="form-control d-inline rounded" id="name" aria-describedby="emailHelp" placeholder="Enter Lead time" value="01/20/18">
+
+																<select class="custom-select ml-3" id="inputGroupSelect01">
+																	<option value="1">12:00 AM</option>
+																	<option value="2">12:15 AM</option>
+																	<option value="3">12:30 AM</option>
+																	<option value="4">...</option>
+																	<option value="5">...</option>
+																	<option value="6">15 mins interval ni pat</option>
+																	<option value="7">11:45 PM</option>
+																</select>
+															</div>
 														</td>
 
 														<td>
-															Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+															<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</textarea>
 														</td>
 
 														<td>
-															AToG1, AToG2
-														</td>														
-													</tr>	
-													<tr>
-														<th scope="row"><input type="checkbox" id="Activecheck"></th>
-														<td>
-															01/20/18 12:00AM
-														</td>
-
-														<td>
-															01/20/18 12:00AM
-														</td>
-
-														<td>
-															Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-														</td>
-
-														<td>
-															AToG1, AToG2
-														</td>														
-													</tr>	
-													<tr>
-														<th scope="row"><input type="checkbox" id="Activecheck"></th>
-														<td>
-															01/20/18 12:00AM
-														</td>
-
-														<td>
-															01/20/18 12:00AM
-														</td>
-
-														<td>
-															Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
-														</td>
-
-														<td>
-															AToG1, AToG2
+															<div class="form-group mb-0">
+																<div class="dropdown custom-dropdown">
+																	<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																		Select Location
+																	</button>
+																	 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																	 	<ul class="list-group">
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">ALL</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG1</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG2</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG3</label>
+																			</li>
+																			<li class="list-group-item">
+																				<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																				<label class="d-inline clearfix" for="Activecheck">AToG4</label>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
 														</td>														
 													</tr>
 												</tbody>
