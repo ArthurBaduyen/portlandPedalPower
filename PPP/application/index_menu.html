@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/ppp1.css">
+	<link rel="stylesheet" type="text/css" href="css/ppp2.css">
+
+	<!-- 
+	<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+ 	<script>tinymce.init({ selector:'textarea' });</script>
+ 	 -->
+
+</head>
+<body class="pb-5">
+	<div id="cms-content">
+		<header class="navigation border-bottom">
+			<div class="wrapper">
+				<div class="pull-right navigation-sign-in">
+					<ul class="inline-list margin-top-xs">
+						<li class="margin-0">
+						<a href="tel:503-764-1415" class="orange-link"><i class="fa fa-phone margin-right-xxs"></i> 503-764-1415</a>
+						</li>
+						<li class="margin-0">
+						<a href="http://ppp.pdxpedpow.com:81/users/sign_out" class="uppercase" data-method="delete" rel="nofollow">Sign Out</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clear navigation-link__container">
+
+					<a href="#" class="navigation-logo">
+						<img alt="Ppp_logo" class="transition-all" src="ppp_logo.png">
+					</a>
+
+					<div class="pull-right navigation-links transition-all">
+						<ul class="inline-list">
+							<li><a href="http://ppp.pdxpedpow.com:81/" class="uppercase orange-link ">Order Now</a></li>
+							<li><a href="http://www.portlandpedalpower.com/catering/" class="uppercase">Catering</a></li>
+							<li><a href="http://www.portlandpedalpower.com/advertising/" class="uppercase">Advertising</a></li>
+							<li><a href="http://www.portlandpedalpower.com/about/" class="uppercase">About</a></li>
+							<li><a href="http://www.portlandpedalpower.com/blog/" class="uppercase">Blog</a></li>
+							<li><a href="http://ppp.pdxpedpow.com:81/cms" class="current-link uppercase">CMS</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class="nav">
+		<div class="ui-tabs nav-tabs mx-auto">
+			<ul class="ui-tabs-cms-nav ">
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/dashboards">Dashboard</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/dispatch">Dispatch</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/orders">Orders</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/accounts">Accounts</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/users">Users</a></li>
+				<li class="ui-state-active"><a href="http://ppp.pdxpedpow.com:81/cms/vendors">Vendors</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/riders">Riders</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/delivery_locations">Delivery&nbsp;Locations</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/tabs">Tabs</a></li>
+				<li class=""><a href="http://ppp.pdxpedpow.com:81/cms/hubs">Hubs</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- STARTS THE FUTURE HERE -->
+	<div class="container-fluid chromedia">
+		<div class="row"> 
+			<div class="col-md-12 col">
+				<!-- START VENDOR MENU -->
+					<div class="container-fluid text-left">
+						<form>
+							<div class="row mb-3">
+								<div class="col-md-3 col">
+									<div class="ppp-search">
+										<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+									</div>
+								</div>
+								<div class="col-md-9 col pt-2">
+									<!-- <label class="h5 bold d-inline" for="textarea">Location</label> -->
+									<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-plus"></a>
+									<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-download pull-right"></a>
+									<a href="#" class="ml-3 d-inline text-upper no-decor fa fa-upload pull-right"></a>
+								</div>
+							</div>
+
+							<div class="row justify-content-start">
+								<div class="col-md-12 col ">
+									<div style="">
+										<!-- <table class="table table-hover table-active" style="width: 180em;"> -->
+										<table class="table table-hover table-active">
+											<thead class="thead-default">
+												<tr>
+													<th class="align-middle" width="50px">Active</th>
+													<th class="align-middle" width="50px">Public</th>
+													<th class="align-middle">Service <br />Hours</th>
+													<th class="align-middle">Family Name  <a href=""><i class="fa fa-sort"></i></a></th>
+													<th class="align-middle">Family <br />Description</th>
+													<th class="align-middle">Menu Category  <a href=""><i class="fa fa-sort"></i></a></th>
+													<th class="align-middle" width="100px">Item Name <a href=""><i class="fa fa-sort"></i></a></th>						
+													<th class="align-middle">Item <br />Description</th>
+													<th class="align-middle">Dietary <br />Code</th>
+													<th class="align-middle" width="100px">Lead <br />Time</th>
+													<th class="align-middle" width="50px">Wholesale Price</th>
+													<th class="align-middle" width="50px">Retail <br />Price</th>
+													<th class="align-middle" width="50px">List <br />Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Service Hours
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Breakfast</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Lunch</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Dinner</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Family Name" value='Sinigang na Medyas'>
+													</td>														
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^</textarea>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category" value="Sud an">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category"  value="Medyas tapa">
+													</td>
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter Item Name">You can't imagine how kalami this sud an</textarea>
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dietary Code
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">GF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">VG</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">V</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">DF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Contain Nuts</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Minutes"  value="30 min">
+													</td>
+													<td>
+													20$														
+														<!-- <label for="">Wholesale: </label> <input type="text" placeholder="Wholesale Price" value="20$">
+														<label for="">Retail: </label> <input type="text" placeholder="Retail Price" value="22$">
+														<label for="">List: </label> <input type="text" placeholder="List Price" value="25$"> -->
+													</td>
+													<td>22$</td>
+													<td>25$</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Service Hours
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Breakfast</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Lunch</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Dinner</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Family Name" value='Sinigang na Medyas'>
+													</td>														
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^</textarea>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category" value="Sud an">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category"  value="Medyas tapa">
+													</td>
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter Item Name">You can't imagine how kalami this sud an</textarea>
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dietary Code
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">GF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">VG</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">V</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">DF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Contain Nuts</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Minutes"  value="30 min">
+													</td>
+													<td>
+													20$														
+														<!-- <label for="">Wholesale: </label> <input type="text" placeholder="Wholesale Price" value="20$">
+														<label for="">Retail: </label> <input type="text" placeholder="Retail Price" value="22$">
+														<label for="">List: </label> <input type="text" placeholder="List Price" value="25$"> -->
+													</td>
+													<td>22$</td>
+													<td>25$</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Service Hours
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Breakfast</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Lunch</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Dinner</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Family Name" value='Sinigang na Medyas'>
+													</td>														
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^</textarea>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category" value="Sud an">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category"  value="Medyas tapa">
+													</td>
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter Item Name">You can't imagine how kalami this sud an</textarea>
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dietary Code
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">GF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">VG</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">V</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">DF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Contain Nuts</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Minutes"  value="30 min">
+													</td>
+													<td>
+													20$														
+														<!-- <label for="">Wholesale: </label> <input type="text" placeholder="Wholesale Price" value="20$">
+														<label for="">Retail: </label> <input type="text" placeholder="Retail Price" value="22$">
+														<label for="">List: </label> <input type="text" placeholder="List Price" value="25$"> -->
+													</td>
+													<td>22$</td>
+													<td>25$</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Service Hours
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Breakfast</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Lunch</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Dinner</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Family Name" value='Sinigang na Medyas'>
+													</td>														
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^</textarea>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category" value="Sud an">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category"  value="Medyas tapa">
+													</td>
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter Item Name">You can't imagine how kalami this sud an</textarea>
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dietary Code
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">GF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">VG</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">V</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">DF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Contain Nuts</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Minutes"  value="30 min">
+													</td>
+													<td>
+													20$														
+														<!-- <label for="">Wholesale: </label> <input type="text" placeholder="Wholesale Price" value="20$">
+														<label for="">Retail: </label> <input type="text" placeholder="Retail Price" value="22$">
+														<label for="">List: </label> <input type="text" placeholder="List Price" value="25$"> -->
+													</td>
+													<td>22$</td>
+													<td>25$</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Service Hours
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Breakfast</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Lunch</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Dinner</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Family Name" value='Sinigang na Medyas'>
+													</td>														
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^</textarea>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category" value="Sud an">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category"  value="Medyas tapa">
+													</td>
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter Item Name">You can't imagine how kalami this sud an</textarea>
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dietary Code
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">GF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">VG</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">V</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">DF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Contain Nuts</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Minutes"  value="30 min">
+													</td>
+													<td>
+													20$														
+														<!-- <label for="">Wholesale: </label> <input type="text" placeholder="Wholesale Price" value="20$">
+														<label for="">Retail: </label> <input type="text" placeholder="Retail Price" value="22$">
+														<label for="">List: </label> <input type="text" placeholder="List Price" value="25$"> -->
+													</td>
+													<td>22$</td>
+													<td>25$</td>
+												</tr>
+												<tr>
+													<th scope="row"><input type="checkbox" class="disable" id="Activecheck"></th>
+													<td>
+														<input type="checkbox" class="disable" id="Activecheck">
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Service Hours
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Breakfast</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Lunch</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Dinner</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Family Name" value='Sinigang na Medyas'>
+													</td>														
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter capacity" >Masarap Maasim at hindi mainda na kahumot pag suyop sa sabaw ^_^</textarea>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category" value="Sud an">
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Category"  value="Medyas tapa">
+													</td>
+													<td>
+														<div class="mb-1">
+															<input type="checkbox" class="mr-1" id="Activecheck">Include
+														</div>
+														<textarea class="form-control" id="textarea" rows="8" placeholder="Enter Item Name">You can't imagine how kalami this sud an</textarea>
+													</td>
+													<td>
+														<div class="form-group">
+															<div class="dropdown custom-dropdown">
+																<button class="text-left btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Dietary Code
+																</button>
+																 <div class="dropdown-menu p-0" aria-labelledby="dropdownMenuButton">
+																 	<ul class="list-group">
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">GF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">VG</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">V</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">DF</label>
+																		</li>
+																		<li class="list-group-item">
+																			<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+																			<label class="d-inline clearfix" for="Activecheck">Contain Nuts</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</td>
+													<td>
+														<input class="form-control mr-sm-2" type="textbox" placeholder="Enter Minutes"  value="30 min">
+													</td>
+													<td>
+													20$														
+														<!-- <label for="">Wholesale: </label> <input type="text" placeholder="Wholesale Price" value="20$">
+														<label for="">Retail: </label> <input type="text" placeholder="Retail Price" value="22$">
+														<label for="">List: </label> <input type="text" placeholder="List Price" value="25$"> -->
+													</td>
+													<td>22$</td>
+													<td>25$</td>
+												</tr>													
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				<!-- END VENDOR MENU -->
+			</div> 
+		</div>
+	</div>
+	<!-- THE FUTURE ENDS HERE -->
+
+
+
+	<script type='text/javascript' src='../bower_components/jquery/dist/jquery.min.js'></script>
+	<script type='text/javascript' src='../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'></script>
+	<script type='text/javascript' src='js/app.js'></script>
+
+
+
+	<!-- MCE -->
+	<script type="text/javascript">
+		$(document).on('focusin', function(e) {
+		  if ($(e.target).closest(".mce-window").length) {
+		    e.stopImmediatePropagation();
+		  }
+		});
+	</script>
+
+	
+
+</body>
+</html>

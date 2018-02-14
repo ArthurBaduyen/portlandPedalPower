@@ -7,7 +7,6 @@ $("tr").click(function(){
 
 
 $(document).on("click",".btn", function(){
-  console.log("button click")
   $("tr.action").remove();
   $("tr.table-edit").removeClass("table-edit");  
 })
