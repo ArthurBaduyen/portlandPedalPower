@@ -1,5 +1,5 @@
  .chromedia {
- 	ul {
+ 	* {
  		a.nav-link {
  			&.active {
  				background: #CCCAC4;
@@ -8,15 +8,11 @@
  			background: transparent;
  			border: none;
  		}
- 		border: none;
- 	}
 
- 	.tab-content{
-	 	.tab-pane {
-	 		&.active {
-	 		 background: transparent;
-	 		}
-	 	}
-	 	border-top: 3px solid #cccac4;
+ 		form {
+ 			&.needs-validation {
+ 				border-top: 3px solid #cccac4;
+ 			}
+ 		}
 	 }	
  }

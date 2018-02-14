@@ -69,7 +69,13 @@
 			<div class="col-md-12 col">
 					<!-- START VENDOR PROFILE -->
 						<div class="container-fluid text-left">
-							<form  class="needs-validation" novalidate>
+							<nav class="">
+								  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+									<a class="nav-item nav-link active">Home</a>
+									<a class="nav-item nav-link"href="/index_menu.html">Profile</a>
+								</div>
+							</nav>
+							<form  class="needs-validation pt-3" novalidate>
 									<!-- FORMS -->
 									<div class="row mb-3">
 										<div class="col-md-1 col">
@@ -1484,7 +1490,7 @@
 	<script type="text/javascript">
 		$(document).on('focusin', function(e) {
 		  if ($(e.target).closest(".mce-window").length) {
-		    e.stopImmediatePropagation();
+			e.stopImmediatePropagation();
 		  }
 		});
 	</script>
