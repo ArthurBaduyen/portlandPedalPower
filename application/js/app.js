@@ -10,3 +10,7 @@ $(document).on("click",".btn", function(){
   $("tr.action").remove();
   $("tr.table-edit").removeClass("table-edit");  
 })
+
+$(document).ready(function(){
+	autosize($('textarea'));
+})
