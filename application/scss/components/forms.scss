@@ -138,4 +138,14 @@
 			}
 		}
 	}
+
+	input {
+		&.upload {
+			opacity: 0;
+			width: 6.7em;
+			float: right;
+			margin-left: -6.7em;
+			cursor: pointer !important;
+		}
+	}
 }
