@@ -1,4 +1,5 @@
 .chromedia {
+
 	.text-upper {
 		text-transform: uppercase;
 	}
@@ -40,6 +41,18 @@
 			font-family: verdana;
 			font-weight: 600;
 			font-size: 15px;
+		}
+
+		&.chr-upload {
+			&:after {
+				content:' Import CSV' !important;
+			}
+		}
+
+		&.chr-download {
+			&:after {
+				content:' Export CSV' !important;
+			}
 		}
 	}
 
