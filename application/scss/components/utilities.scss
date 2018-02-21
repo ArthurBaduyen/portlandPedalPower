@@ -20,7 +20,7 @@
 		}
 	}
 
-	a {
+	a, label {
 		&.fa-plus:after {
 			content: " New";
 			font-family: verdana;
