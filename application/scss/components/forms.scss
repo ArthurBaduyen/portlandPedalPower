@@ -137,9 +137,15 @@
 					background-color: #f3f3f3;
 					// text-align:right;
 					.btn {						
-						padding: .5rem 1rem;
-						background-color: #b95354;
+						padding: .5rem 1rem;						
 						border-radius: 1px;
+					}
+
+					.btnDelete{
+						background-color: #b95354;
+					}
+					.btnCancel{
+						background-color: #e99136;
 					}
 				}
 			}
