@@ -18,9 +18,23 @@
 		outline: none !important; 
 	}
 
+
 	&.front {
 		.dropdown-toggle::after {
 			display: none;
+		}
+	}
+
+	.selectBox-dropdown {
+		background-color: transparent;
+	}
+
+	.dropdown-toggle {
+		background-color: transparent !important;
+		color: #323232 !important;
+		border: 0px !important;
+		&:focus {
+			box-shadow: none !important;
 		}
 	}
 }

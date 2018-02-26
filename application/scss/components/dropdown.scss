@@ -1,5 +1,7 @@
 .chromedia {
 	.custom-dropdown{
+		background-color: transparent !important;
+		display: inline-block;
 		button {
 			padding: 5px 15px; 
 			background: #fff;
@@ -14,6 +16,17 @@
 
 		.dropdown-menu, form-check {
 			width: 100% !important;
+		}
+
+		ul {
+			padding: .5rem 0px;
+			li {
+				border: 0px;
+				padding: .5rem 1rem;
+				&:hover {
+					background-color: rgba(0,0,0,.05)
+				}
+			}
 		}
 	}
 
