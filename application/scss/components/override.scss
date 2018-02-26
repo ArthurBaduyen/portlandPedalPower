@@ -17,4 +17,10 @@
 		}
 		outline: none !important; 
 	}
+
+	&.front {
+		.dropdown-toggle::after {
+			display: none;
+		}
+	}
 }

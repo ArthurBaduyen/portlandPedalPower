@@ -65,9 +65,7 @@
 }
 
 
-.bg-pale-white {
-	background: #FCFCFC;
-}	
+.bg-pale-white {background: #FCFCFC;}	
 
 .padding {padding: .5rem }
 
@@ -76,3 +74,9 @@
 .border-bottom { border-bottom: 1px solid #e1e1e1; }
 
 .bold { font-weight: bold; }
+
+.prim-o {color: #EB9327;}
+
+.shadow {box-shadow: 0 2px 8px 0 rgba(0,0,0,0.13);}
+
+.scroll-0 {overflow: hidden !important;}

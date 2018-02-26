@@ -158,4 +158,20 @@
 			text-overflow: ellipsis;
 		}
 	}
+
+	&.front {
+		input {
+			&.search {
+				max-width: 40%;
+			}
+		}
+
+		input::placeholder {
+			font-family: Poppins-Light;
+			font-size: 15px;
+			color: #CCCCCC;
+			letter-spacing: 0;
+			font-weight: 300;
+		}
+	}
 }
