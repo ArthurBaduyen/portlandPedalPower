@@ -155,7 +155,7 @@
 	}
 
 	&.front {
-		input {
+		input, select {
 			&.search {
 				max-width: 40%;
 			}

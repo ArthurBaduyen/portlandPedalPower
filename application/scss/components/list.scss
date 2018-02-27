@@ -11,4 +11,23 @@
 			}
 		}
 	}
+
+	&.front {
+		.menu-item {
+			// max-width: 12em;
+			img {
+				max-height: 7em;
+			}
+		}
+
+		.count  {
+			max-width: 3em;
+		}
+
+		.inc, .dec {
+			background: #fff;
+			color: #ccc;
+		}
+
+	}
 }

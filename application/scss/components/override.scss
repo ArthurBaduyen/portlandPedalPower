@@ -6,9 +6,10 @@
 			background: transparent;
 		}
 	}
+
 	textarea {
 		min-height: 3rem;
-		// height: 3rem;		
+		// height: 3rem;
 	}
 
 	input, textarea { 
@@ -23,18 +24,62 @@
 		.dropdown-toggle::after {
 			display: none;
 		}
+
+		.h1 {
+			font-family: Poppins-SemiBold;
+			font-size: 40px;
+			color: #8BB25E;
+			letter-spacing: 0;
+		}
+
+		.h5 {
+			font-family: Poppins-Medium;
+			font-size: 15px;
+			color: #76A340;
+			letter-spacing: 0;
+		}
+
+		p {
+			letter-spacing: 0;
+			
+			&.desc {
+				font-family: OpenSans;
+				font-size: 12px;
+				color: #858585;
+
+				text-overflow: ellipsis;
+				 white-space: nowrap;
+  				overflow: hidden;
+				}
+
+				&.leadtime {
+				font-family: OpenSans;
+				font-size: 11px;
+				color: #FFFFFF;
+
+				float: right;
+				background:  #76A340;
+				position: absolute;
+				left: 80%;
+				top: 5%;
+			}
+		}
+		a.fa-plus:after, .chromedia label.fa-plus:after {
+			content: "";
+		}
 	}
 
 	.selectBox-dropdown {
 		background-color: transparent;
 	}
-
+	
 	.dropdown-toggle {
 		background-color: transparent !important;
 		color: #323232 !important;
-		border: 0px !important;
+		border: 0px;
 		&:focus {
 			box-shadow: none !important;
 		}
 	}
+	
 }
