@@ -6,7 +6,7 @@ $("tr").on('click',function(){
 		$("tr.action").remove();
 		$("tr.table-edit").removeClass("table-edit");
 		$(this).addClass("table-edit");
-		$("<tr class='action'><td colspan='30'><button class='btn btnDelete'>Delete</button> <button class='btn btnCancel'>Cancel</button></td></tr>").insertAfter(this);	
+		$("<tr class='action'><td colspan='30'><button class='btn btnDelete' data-toggle='modal' data-target='#deleteMenuItem'>Delete</button> <button class='btn btnCancel'>Cancel</button></td></tr>").insertAfter(this);	
 	}
 }) 
 
