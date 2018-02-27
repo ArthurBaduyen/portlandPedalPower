@@ -1,0 +1,39 @@
+.chromedia  {
+	.modal-content {
+		.modal-header {
+			.modal-title {}
+			.close {}
+		}
+		.modal-body {
+			.warning {
+				font-size: 20rem;
+				margin-bottom: 1rem;
+				color: #b95354;
+			}
+		}
+		.modal-footer {
+			text-align: center;
+			justify-content: center;
+			.btn {
+				padding: .5rem 1rem;						
+				border-radius: 1px;	
+				border: 1px solid #323232;				
+				
+			}
+			.btn-cancel {
+				background-color: #fff;
+				color: #323232;
+				&:hover {
+					background-color: rgba(#323232,.10);
+				}
+			}
+			.btn-proceed {
+				background-color: #b95354;
+				border: 1px solid #b95354;
+				&:hover {
+					background-color: rgba(#b95354,.75);
+				}
+			}
+		}
+	}
+}
