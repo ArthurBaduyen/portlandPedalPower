@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/ppp1.css">
 	<link rel="stylesheet" type="text/css" href="css/ppp2.css">
 </head>
-<body class="pb-5 bg-pale-white">
+<body class="bg-pale-white">
 	<div id="cms-content">
 		<header class="navigation border-bottom">
 			<div class="wrapper">
@@ -44,160 +44,416 @@
 
 
 	<!-- STARTS THE FUTURE HERE -->
-	<div class="container chromedia front">
-		
-		<div class="row scroll-0"> 
+	<div class="container-fluid chromedia front">
+		<div class="row"> 
 			<!-- SEARCH AND FILTER STARTS HERE -->
-			<div class="col-md-12 col">
-				<div class="form-group mt-5 text-left">
-					<div class="dropdown custom-dropdown d-inline">
-						<button class="text-left btn btn-secondary dropdown-toggle rounded-0 p-3 filter" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<i class=" fa fa-tasks mr-2"></i>Filter
-						</button>
+			<div class=" col-sm-12 col-12  col-md-8 col border-right">
+				<div class="row">
+					<div class="col-lg-12 col border-bottom">
+						<nav aria-label="breadcrumb">
+					  		<ol class="breadcrumb bg-pale-white p-0 mt-2  mb-2">
+					    			<li class="breadcrumb-item small"><a href="index_frontend.html">List of Vendor</a></li>
+					    			<li class="breadcrumb-item small" aria-current="page">A Taste of Greek</li>
+					  		</ol>
+						</nav>
+					</div>
+					<div class="col-lg-12">
+						<h1 class="h1 text-left mt-4 text-upper">
+							A Taste of Greek
+						</h1>
+						<div class="form-group mt-3 text-left">
+							<!-- <div class="dropdown custom-dropdown d-inline">
+								<button class="text-left btn btn-secondary dropdown-toggle rounded-0 p-3 filter" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class=" fa fa-tasks mr-2"></i>Filter
+								</button>
 
-						 <div class="dropdown-menu p-0 mt-3 border-0" aria-labelledby="dropdownMenuButton">
-							<div class="card border-0 rounded-0 shadow">
-								<div class="card-body caret-up">
-									<div class="row pt-3">
-										<div class="col-md-6 col">
-											<ul>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Breakfast</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Lunch</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Dinner</p>
-												</li>
-											</ul>
-										</div>
-										<div class="col-md-6 col">
-											<ul>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Appetizer</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Dessert</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Drinks</p>
-												</li>
-											</ul>
-										</div>
+								 <div class="dropdown-menu p-0 mt-3 border-0" aria-labelledby="dropdownMenuButton">
+									<div class="card border-0 rounded-0 shadow">
+										<div class="card-body caret-up">
+											<div class="row pt-3">
+												<div class="col-md-6 col">
+													<ul>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Breakfast</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Lunch</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Dinner</p>
+														</li>
+													</ul>
+												</div>
+												<div class="col-md-6 col">
+													<ul>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Appetizer</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Dessert</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Drinks</p>
+														</li>
+													</ul>
+												</div>
 
-										<div class="col-md-12 col p-3">
-											<div class="border-bottom"></div>
-										</div>
-									</div>
+												<div class="col-md-12 col p-3">
+													<div class="border-bottom"></div>
+												</div>
+											</div>
 
-									<div class="row">
-										<div class="col-md-12 col">
-											<p class="prim-o">Cuisine</p>
-										</div>
-										<div class="col-md-6 col">
-											<ul>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Asian</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Japanese</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Thai</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Italian</p>
-												</li>
-											</ul>
-										</div>
-										<div class="col-md-6 col">
-											<ul>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Western</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">South East Asian</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Chinese</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Mexican</p>
-												</li>
-											</ul>
-										</div>
+											<div class="row">
+												<div class="col-md-12 col">
+													<p class="prim-o">Cuisine</p>
+												</div>
+												<div class="col-md-6 col">
+													<ul>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Asian</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Japanese</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Thai</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Italian</p>
+														</li>
+													</ul>
+												</div>
+												<div class="col-md-6 col">
+													<ul>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Western</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">South East Asian</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Chinese</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Mexican</p>
+														</li>
+													</ul>
+												</div>
 
-										<div class="col-md-12 col p-3">
-											<div class="border-bottom"></div>
-										</div>
-									</div>
+												<div class="col-md-12 col p-3">
+													<div class="border-bottom"></div>
+												</div>
+											</div>
 
-									<div class="row pb-3">
-										<div class="col-md-12 col">
-											<p class="prim-o">Variants</p>
-										</div>
-										<div class="col-md-6 col">
-											<ul>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Chicken</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Beef</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Pork</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Beef</p>
-												</li>
-											</ul>
-										</div>
-										<div class="col-md-6 col">
-											<ul>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Seafood</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Vegan</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Vegetarian</p>
-												</li>
-												<li class="mb-2">
-													<input type="checkbox" class="d-inline mr-2" id="Activecheck">
-													<p class="d-inline title">Burgers</p>
-												</li>
-											</ul>
+											<div class="row pb-3">
+												<div class="col-md-12 col">
+													<p class="prim-o">Variants</p>
+												</div>
+												<div class="col-md-6 col">
+													<ul>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Chicken</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Beef</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Pork</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Beef</p>
+														</li>
+													</ul>
+												</div>
+												<div class="col-md-6 col">
+													<ul>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Seafood</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Vegan</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Vegetarian</p>
+														</li>
+														<li class="mb-2">
+															<input type="checkbox" class="d-inline mr-2" id="Activecheck">
+															<p class="d-inline title">Burgers</p>
+														</li>
+													</ul>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
+							</div> -->
+							<div class="d-inline">
+								<!-- <input class="form-control mr-sm-2 search d-inline rounded-0 p-3" type="search" placeholder="e.g. Chicken, Burger, Seafood, etc..." aria-label="Search"> -->
+								<select class="custom-select  search d-inline rounded-0 p-3" id="inputGroupSelect01" style="padding: 20px 15px !important; font-weight: normal; font-size: 14px; font-family: Verdana,Geneva,sans-serif; border-radius: 0px !important;">
+								    	<option selected>All</option>
+								    	<option value="1">Appetizers</option>
+									<option value="2">Sandwiches</option>
+								    	<option value="4">Main Meals</option>
+								    	<option value="5">Salads</option>
+								    	<option value="6">Beverages & Extras</option>
+							  	</select>
 							</div>
 						</div>
 					</div>
-					<div class="d-inline">
-						<input class="form-control mr-sm-2 search d-inline rounded-0 p-3" type="search" placeholder="e.g. Chicken, Burger, Seafood, etc..." aria-label="Search">
+
+					<div class="col-md-12 col mb-4 mt-5">
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item2.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item3.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item4.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item2.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item3.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item4.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item2.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
+						<div class="row mb-4">
+							<div class="col-md-3 col-sm-12  col-12 col">
+								<div class="menu-item">
+						  			<img class="bg-cover" src="./img/item3.png" alt="Card image cap">
+						  		</div>
+							</div>
+							<div class="col-md-9 col">
+								<h5 class="h5 pull-right mb-0 pt-2">$ 10.00</h5>
+								<h5 class="h5 text-left mb-0 pt-2">Hummus w/ Pita</h5>
+							    	<p class="desc text-left">Garbanzo beans w/ garlic, lemon & tahini sauce</p>
+								<a href="" class="pull-right button p-1 pl-3 pr-3 mt-half text-white bg-prime rounded">&#43;</a>
+							    	<input type="text" class="pull-left count mr-1 text-center" value="0">
+							    	<div class="pull-left border mt-half">
+								    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+								    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+							    	</div>
+							</div>
+							<div class="col-md-12">
+								<div class="border-bottom  pt-4 p-0"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div> 
@@ -206,305 +462,12 @@
 
 
 			<!-- ITEMS STARTS HERE -->
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">A Taste of Greek</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
+			<div class=" col-sm-12 col-12 col-md-4 col bg-white position-sticky">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col">
+						<p>test</p>
+					</div>
 				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item2.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Addy's Sandwich Bar</h5>
-					    	<p class="card-text text-left desc mb-0">Serves sandwiches & salads</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item3.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Aprisa Mexican Cuisine</h5>
-					    	<p class="card-text text-left desc mb-0">Newest revolution in fine Mexican Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item4.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Ate-Oh-Ate</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">A Taste of Greek</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item2.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Addy's Sandwich Bar</h5>
-					    	<p class="card-text text-left desc mb-0">Serves sandwiches & salads</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item3.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Aprisa Mexican Cuisine</h5>
-					    	<p class="card-text text-left desc mb-0">Newest revolution in fine Mexican Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item4.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Ate-Oh-Ate</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">A Taste of Greek</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item2.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Addy's Sandwich Bar</h5>
-					    	<p class="card-text text-left desc mb-0">Serves sandwiches & salads</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item3.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Aprisa Mexican Cuisine</h5>
-					    	<p class="card-text text-left desc mb-0">Newest revolution in fine Mexican Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item4.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Ate-Oh-Ate</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">A Taste of Greek</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item2.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Addy's Sandwich Bar</h5>
-					    	<p class="card-text text-left desc mb-0">Serves sandwiches & salads</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item3.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Aprisa Mexican Cuisine</h5>
-					    	<p class="card-text text-left desc mb-0">Newest revolution in fine Mexican Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item4.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Ate-Oh-Ate</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">A Taste of Greek</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item2.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Addy's Sandwich Bar</h5>
-					    	<p class="card-text text-left desc mb-0">Serves sandwiches & salads</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item3.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Aprisa Mexican Cuisine</h5>
-					    	<p class="card-text text-left desc mb-0">Newest revolution in fine Mexican Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
-			</div>
-			<div class="col-md-3 col mb-4">
-				<a href="">
-				<div class="card item" style="width: 100%;">
-				  	<div class="item-image">
-				  		<img class="card-img-top" src="./img/item4.png" alt="Card image cap">
-				  	</div>
-				  	<div class="card-body">
-					    	<h5 class="card-title text-left mb-0">Ate-Oh-Ate</h5>
-					    	<p class="card-text text-left desc mb-0">Specializing in Mediterranean Cuisine</p>
-
-					    	<p class="leadtime p-1 rounded">2 hrs</p>
-				  	</div>
-				</div>
-				</a>
 			</div>
 			
 			<!-- ITEMS ENDS HERE -->
