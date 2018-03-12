@@ -28,6 +28,27 @@
 			background: #fff;
 			color: #ccc;
 		}
+		
+		.order-info {
+			input {
+				border-color: transparent;
+				width: 100%;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				&:focus {
+					border-color: inherit;
+				}
+			}
 
+			.fa {
+				&.fa-edit {
+					float: right;
+					position: absolute;
+					top: 8px;
+					right: 20px;
+					opacity: 0.5;
+				}
+			}
+		}
 	}
 }

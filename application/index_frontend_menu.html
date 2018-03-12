@@ -47,7 +47,7 @@
 	<div class="container-fluid chromedia front">
 		<div class="row"> 
 			<!-- SEARCH AND FILTER STARTS HERE -->
-			<div class=" col-sm-12 col-12  col-md-8 col border-right">
+			<div class=" col-sm-12 col-12  col-md-7 col border-right">
 				<div class="row">
 					<div class="col-lg-12 col border-bottom">
 						<nav aria-label="breadcrumb">
@@ -208,9 +208,9 @@
 									</div>
 								</div>
 							</div> -->
-							<div class="d-inline">
+							<div class="d-inline mr-2">
 								<!-- <input class="form-control mr-sm-2 search d-inline rounded-0 p-3" type="search" placeholder="e.g. Chicken, Burger, Seafood, etc..." aria-label="Search"> -->
-								<select class="custom-select  search d-inline rounded-0 p-3" id="inputGroupSelect01" style="padding: 20px 15px !important; font-weight: normal; font-size: 14px; font-family: Verdana,Geneva,sans-serif; border-radius: 0px !important;">
+								<select class="custom-select search d-inline rounded-0 p-3" id="inputGroupSelect01" style="height: 3em; font-weight: normal; font-size: 14px; font-family: Verdana,Geneva,sans-serif; border-radius: 0px !important;">
 								    	<option selected>All</option>
 								    	<option value="1">Appetizers</option>
 									<option value="2">Sandwiches</option>
@@ -218,6 +218,11 @@
 								    	<option value="5">Salads</option>
 								    	<option value="6">Beverages & Extras</option>
 							  	</select>
+							</div>
+							<div class="d-inline">
+								<button class=" bg-pale-white btn btn-outline border rounded-0 text-normal p-2 pr-4 pl-4 prim-o border-green">
+									<div class="mt-half text-green">Add utensils</div>
+								</button>
 							</div>
 						</div>
 					</div>
@@ -462,10 +467,68 @@
 
 
 			<!-- ITEMS STARTS HERE -->
-			<div class=" col-sm-12 col-12 col-md-4 col bg-white position-sticky">
-				<div class="row">
-					<div class="col-sm-12 col-md-12 col">
-						<p>test</p>
+			<div class=" col-sm-12 col-12 col-md-5 col bg-white position-sticky">
+				<div class="row order-info affix">
+					<div class="col-sm-12 col-12 col-md-12 col mb-4 mt-4">
+						<h4 class="info-title text-left pt-4">
+							Order Information
+						</h4>
+					</div>
+					<div class="col-sm-5 col-lg-5 col col-5">
+						<label class="m-0 text-left">Business Name: </label>
+					</div>
+					<div class="col-sm-7 col-lg-7 col col-7 text-right">
+						<input type="text" class="text-right d-inline  disable" value="Brandlance Avenue">
+						<!-- <i class="fa fa-edit d-inline desc"></i> -->
+					</div>
+
+					<div class="col-sm-5 col-lg-5 col col-5">
+						<label class="m-0 text-left">Delivery Date: </label>
+					</div>
+					<div class="col-sm-7 col-lg-7 col col-7 text-right">
+						<input type="text" class="text-right disable" value="December 22, 2018">
+					</div>
+
+					<div class="col-sm-5 col-lg-5 col col-5">
+						<label class="m-0 text-left">Delivery Location: </label>
+					</div>
+					<div class="col-sm-7 col-lg-7 col col-7 text-right">
+						<input type="text" class="text-right disable" value="1615 SE 3rd Ave">
+					</div>
+
+					<!-- MENUS -->
+					<div class="col-12 col mt-4">
+						<label class="m-0 text-left">A Taste of Greek</label>
+					</div>
+
+					<div class="col col-12 text-left pb-1 border-bottom">
+						<div class="clearfix pt-2">
+							<p class="pull-left text-truncate pb-0 pt-2" style="max-width: 15em; width: 100%;">Hummus w/ Pita</p>
+
+						    	<div class="pull-right border mt-half ">
+							    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+							    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+						    	</div>
+							<div class="pull-left ml-2 pt-2">
+						    		<span class="text-green">$ 37.50</span>
+								<span class="d-inline">(5x)</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col col-12 text-left pb-1 border-bottom">
+						<div class="clearfix pt-2">
+							<p class="pull-left text-truncate pb-0 pt-2" style="max-width: 15em; width: 100%;">Hummus w/ Pita</p>
+
+						    	<div class="pull-right border mt-half ">
+							    	<a href="" class="button pl-2 pr-2 inc d-block bold border-bottom fa fa-caret-up"></a>
+							    	<a href="" class="button pl-2 pr-2 dec d-block bold fa fa-caret-down"></a>
+						    	</div>
+							<div class="pull-left ml-2 pt-2">
+						    		<span class="text-green">$ 37.50</span>
+								<span class="d-inline">(5x)</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
