@@ -15,9 +15,6 @@
 	.btn {
 		font-weight: normal;
 		font-family: verdana;
-		&:btn-secondary {
-			
-		}
 	}
 
 	a, label {
@@ -78,7 +75,12 @@
 }
 
 
+
 .bg-pale-white {background-color: #FCFCFC !important;}
+
+.bg-prime {background: #EB9327;}
+
+.bg-second {background: #8BB25E;}
 
 .bg-white {background: #fff;}
 
@@ -102,8 +104,6 @@
 
 .mt-half {margin-top: 0.20em}
 
-.bg-prime {background: #EB9327;}
-
 .text-normal {text-transform: none !important;}
 
 .bg-cover {
@@ -111,5 +111,4 @@
 	height: 100%;
 	object-fit: cover;
 }
-
 
