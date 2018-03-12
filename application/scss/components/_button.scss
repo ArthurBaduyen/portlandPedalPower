@@ -1,0 +1,25 @@
+.chromedia {
+	.btn {
+		padding: .5rem .75rem;
+		background-color: transparent;
+		border: 0px;
+		color: red;
+		border-radius: 2px;
+		&:hover {
+			background-color: #e1e1e1;
+		}
+
+		&.primary {
+			background-color: #7ea034;
+			color: #fff;
+		}
+
+		&.hollow {
+			background-color: transparent;
+			border: 1px solid #7ea034;
+			color: #7ea034;
+		}
+	}
+
+
+}
